@@ -18,3 +18,6 @@ crontab cronjob
 #Clone Repository
 cd /opt/btfs/
 git clone https://github.com/MasterZeh/btfs-monitor.git
+
+#Set execute permission on monitor.sh
+chmod u+x /opt/btfs/btfs-monitor/monitor.sh
